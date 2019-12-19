@@ -97,6 +97,10 @@ public class Main {
     // a button
     aButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        aButton.setBackground(Color.GRAY);
+        }});
+    aButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText("The Duck Sat");
         }});
 
@@ -110,6 +114,11 @@ public class Main {
         outputLabel3.setText(" ");
         }});
     //b button
+    bButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        bButton.setBackground(Color.GRAY);
+        }});
+
     bButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText("The Duck waited");
@@ -127,6 +136,11 @@ public class Main {
     // c button
     cButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        cButton.setBackground(Color.GRAY);
+        }});
+
+    cButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");}});
 
     cButton.addActionListener(new ActionListener() {
@@ -138,6 +152,11 @@ public class Main {
       public void actionPerformed(ActionEvent e) {
         outputLabel3.setText(" ");}});
     // d button
+    dButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        dButton.setBackground(Color.GRAY);
+        }});
+
     dButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -155,6 +174,11 @@ public class Main {
     // e button
     eButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        eButton.setBackground(Color.GRAY);
+        }});
+
+    eButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
 
@@ -168,6 +192,11 @@ public class Main {
         outputLabel3.setText(" ");
         }});
     // f button
+    fButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        fButton.setBackground(Color.GRAY);
+        }});
+
     fButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -185,6 +214,11 @@ public class Main {
     // g button
     gButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        gButton.setBackground(Color.GRAY);
+        }});
+
+    gButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText("The duck got up with minnimal harm");
         }});
 
@@ -198,6 +232,11 @@ public class Main {
         outputLabel3.setText(" ");
         }});
     // h button
+    hButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        hButton.setBackground(Color.GRAY);
+        }});
+
     hButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText("The duck looks up");
@@ -215,6 +254,11 @@ public class Main {
     // i button
     iButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        iButton.setBackground(Color.GRAY);
+        }});
+
+    iButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
 
@@ -228,6 +272,11 @@ public class Main {
         outputLabel3.setText(" ");
         }});
     // j button
+    jButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        jButton.setBackground(Color.GRAY);
+        }});
+
     jButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -245,6 +294,11 @@ public class Main {
     // k button
     kButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        kButton.setBackground(Color.GRAY);
+        }});
+
+    kButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
 
@@ -258,6 +312,11 @@ public class Main {
         outputLabel3.setText("The Duck Grabs the bird neck");
         }});
     // l button
+    lButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        lButton.setBackground(Color.GRAY);
+        }});
+
     lButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -275,6 +334,11 @@ public class Main {
     // m button
     mButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        mButton.setBackground(Color.GRAY);
+        }});
+
+    mButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
 
@@ -288,6 +352,11 @@ public class Main {
         outputLabel3.setText("A black hole forms behind the duck");
         }});
     // n button
+    nButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        nButton.setBackground(Color.GRAY);
+        }});
+    
     nButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -305,6 +374,11 @@ public class Main {
     // o button
     oButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        oButton.setBackground(Color.GRAY);
+        }});
+
+    oButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
     
@@ -318,6 +392,11 @@ public class Main {
         outputLabel3.setText("The duck pulls out the singularty");
         }});
     // p button
+    pButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        pButton.setBackground(Color.GRAY);
+        }});
+
     pButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -335,6 +414,11 @@ public class Main {
     // q button
     qButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        qButton.setBackground(Color.GRAY);
+        }});
+
+    qButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
     qButton.addActionListener(new ActionListener() {
@@ -347,6 +431,11 @@ public class Main {
         outputLabel3.setText("the bird dies while looking into the eyes of god");
         }});
     // r button
+    rButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        rButton.setBackground(Color.GRAY);
+        }});
+
     rButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
@@ -364,9 +453,14 @@ public class Main {
     // s Button
     sButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
+        sButton.setBackground(Color.GRAY);
+        }});
+
+    sButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
         outputLabel.setText(" ");
         }});
-        
+
     sButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel2.setText(" ");
@@ -376,7 +470,12 @@ public class Main {
       public void actionPerformed(ActionEvent e) {
         outputLabel3.setText("Mortals shall not interfere with the gods");
         }});
-    //T button
+    // t button
+    tButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        tButton.setBackground(Color.GRAY);
+        }});
+
     tButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         outputLabel.setText("The world returns to normal the duck is happy");
