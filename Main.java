@@ -33,6 +33,7 @@ public class Main {
     JButton tButton = new JButton("t");
     JLabel outputLabel = new JLabel();
     JLabel outputLabel2 = new JLabel();
+    JLabel outputLabel3 = new JLabel();
 
 
     // place and size for components
@@ -57,12 +58,16 @@ public class Main {
     rButton.setBounds(348, 450, 100, 50);
     sButton.setBounds(464, 450, 100, 50);
     tButton.setBounds(580, 450, 100, 50);
+
     outputLabel.setBounds(100,100,1000,50);
     outputLabel.setFont(new Font("Arial", Font.PLAIN, 32));
     outputLabel.setForeground(Color.BLUE);
-    outputLabel2.setBounds(100,200,1000,50);
+    outputLabel2.setBounds(100,100,1000,50);
     outputLabel2.setFont(new Font("Arial", Font.PLAIN, 32));
-    outputLabel2.setForeground(Color.RED);
+    outputLabel2.setForeground(Color.ORANGE);
+    outputLabel3.setBounds(100,100,1000,50);
+    outputLabel3.setFont(new Font("Arial", Font.PLAIN, 32));
+    outputLabel3.setForeground(Color.RED);
 
     frame.add(aButton);
     frame.add(bButton);
@@ -86,109 +91,304 @@ public class Main {
     frame.add(tButton);
     frame.add(outputLabel);
     frame.add(outputLabel2);
+    frame.add(outputLabel3);
 
-   
-
-    
     // add event listener for button click
+    // a button
     aButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel.setText("The Duck Sat");
+        }});
+
+    aButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
+        }});
+
+    aButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    //b button
+    bButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText("The Duck waited");
+        }});
+    
+    bButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     bButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel3.setText(" ");
         }});
+    // c button
+    cButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");}});
 
     cButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText("A bird came and picked up the duck");
+        }});
+    
+    cButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");}});
+    // d button
+    dButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     dButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel2.setText("The bird sored High into the sky");
+        }});
+    
+    dButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // e button
+    eButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     eButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText("The Bird Droped The Duck");
+        }});
+
+    eButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // f button
+    fButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     fButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel2.setText("The duck fell and landed with a thump and a crack");
+        }});
+
+    fButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // g button
+    gButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText("The duck got up with minnimal harm");
         }});
 
     gButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    gButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // h button
+    hButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText("The duck looks up");
         }});
 
     hButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    hButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // i button
+    iButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     iButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText("The bird swooped down tro try and pick up the duck again");
+        }});
+
+    iButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
+        }});
+    // j button
+    jButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     jButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel2.setText(" ");
+        }});
+    
+    jButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText("The ducks eyes go white");
+        }});
+    // k button
+    kButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     kButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    kButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText("The Duck Grabs the bird neck");
+        }});
+    // l button
+    lButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
+        }});
+    
+    lButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     lButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel3.setText(" The duck floats into the air");
+        }});
+    // m button
+    mButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     mButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    mButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText("A black hole forms behind the duck");
+        }});
+    // n button
+    nButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     nButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel2.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    nButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText("The duck reaches into the black hole");
+        }});
+    // o button
+    oButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
+        }});
+    
+    oButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     oButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel3.setText("The duck pulls out the singularty");
+        }});
+    // p button
+    pButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
+        }});
+    
+    pButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     pButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel3.setText("The Duck feeds the bird the singularity");
+        }});
+    // q button
+    qButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
+        }});
+    qButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     qButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel3.setText("the bird dies while looking into the eyes of god");
+        }});
+    // r button
+    rButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
         }});
 
     rButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText(" ");
+        }});
+
+    rButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText("The Duck Says");
+        }});
+    // s Button
+    sButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText(" ");
+        }});
+        
+    sButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel2.setText(" ");
         }});
 
     sButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel3.setText("Mortals shall not interfere with the gods");
+        }});
+    //T button
+    tButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel.setText("The world returns to normal the duck is happy");
         }});
 
     tButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        outputLabel.setText("");
+        outputLabel2.setText(" ");
+        }});
+    tButton.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        outputLabel3.setText(" ");
         }});
 
 
