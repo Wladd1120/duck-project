@@ -63,10 +63,10 @@ public class Main {
     outputLabel.setFont(new Font("Arial", Font.PLAIN, 32));
     outputLabel.setForeground(Color.BLUE);
     outputLabel2.setBounds(100,100,1000,50);
-    outputLabel2.setFont(new Font("Arial", Font.PLAIN, 32));
+    outputLabel2.setFont(new Font("Arial", Font.ITALIC, 32));
     outputLabel2.setForeground(Color.ORANGE);
     outputLabel3.setBounds(100,100,1000,50);
-    outputLabel3.setFont(new Font("Arial", Font.PLAIN, 32));
+    outputLabel3.setFont(new Font("Arial", Font.BOLD, 32));
     outputLabel3.setForeground(Color.RED);
 
     frame.add(aButton);
